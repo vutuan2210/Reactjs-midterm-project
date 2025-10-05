@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 200px;
+  list-style: none;
+}
+
+.navbar-menu li {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #FFFFFFB3;
+
+}
+
+.navbar-menu li:hover {
+  color: #e50914;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar-actions input {
+  border-radius: 50px;
+  border: none;
+  background-color: #2c3646;
+  color: #FFFFFFB3;
+  padding: 20px 150px;
+}
+.navbar-actions input::placeholder {
+  color: #FFFFFFB3;
+  font-size: 15px;
+}
