@@ -13,6 +13,7 @@ function Section({ title, onSelectMovie }) {
             key={i}
             title={m.movieName}
             img={m.poster}
+            episode={m.episode}
             onClick={() => onSelectMovie(m)}
           />
         ))}
